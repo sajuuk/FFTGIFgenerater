@@ -1,7 +1,7 @@
 /*
  * @Author: sajuuk
  * @Date: 2021-06-22 20:55:44
- * @LastEditTime: 2021-06-23 10:46:44
+ * @LastEditTime: 2021-06-23 11:06:10
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \FFTGIFgenerater\util\FFT.cpp
@@ -40,7 +40,7 @@ void ffTrans(int n,complexNum* input,complexNum* output)
         }
         else
         {
-            xEven[i/2-1]=input[i];
+            xEven[i/2]=input[i];
         }
     }
     complexNum* a=(complexNum*)malloc(sizeof(complexNum)*(n/2));
