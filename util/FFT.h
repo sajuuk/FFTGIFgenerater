@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-22 20:55:44
- * @LastEditTime: 2021-06-24 00:17:43
+ * @LastEditTime: 2021-06-24 10:50:31
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \FFTGIFgenerater\util\FFT.h
@@ -12,6 +12,7 @@
 #include<stdlib.h>
 #include<math.h>
 #define PI 3.14159265358979323846
+#define EXPORT __declspec(dllexport)
 struct complexNum
 {
     float r;//real part
@@ -53,7 +54,7 @@ struct complexNum
 };
 extern "C"
 {
-    void init(int n);
-    complexNum getTwiddlefactor(int n,int k);
-    void ffTrans(int n,complexNum* input,complexNum* output);
+    EXPORT void init(int n);
+    EXPORT complexNum getTwiddlefactor(int n,int k);
+    EXPORT void ffTrans(int n,complexNum* input,complexNum* output);
 }
