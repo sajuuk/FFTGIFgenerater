@@ -2,14 +2,13 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe 生成活动文件",
+            "label": "C/C++: g++.exe 生成DLL",
             "command": "D:\\CodeBlocks\\MinGW\\bin\\g++.exe",
             "args": [
-                "-g",
+                "-shared",
                 "${file}",
-                "FFT.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.dll"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -18,7 +17,7 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "调试器生成的任务。"
+            "detail": "生成FFT.dll。"
         }
     ],
     "version": "2.0.0"
