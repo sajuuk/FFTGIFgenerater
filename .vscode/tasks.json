@@ -1,5 +1,6 @@
 {
-    "tasks": [
+    "tasks": 
+    [
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe 生成DLL",
@@ -8,7 +9,7 @@
                 "-shared",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.dll"
+                "${fileDirname}\\..\\test\\${fileBasenameNoExtension}.dll"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -17,7 +18,26 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "生成FFT.dll。"
+            "detail": "生成dll(32)。"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++:x86_64-w64-mingw32-g++.exe 生成64位DLL",
+            "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe",
+            "args": [
+                "-shared",
+                "${file}",
+                "-o",
+                "${fileDirname}\\..\\test\\${fileBasenameNoExtension}.dll"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "生成${fileBasenameNoExtension}.dll(64)。"
         }
     ],
     "version": "2.0.0"
