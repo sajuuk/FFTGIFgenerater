@@ -1,7 +1,7 @@
 /*
  * @Author: sajuuk
  * @Date: 2021-06-22 20:55:44
- * @LastEditTime: 2021-06-23 16:35:46
+ * @LastEditTime: 2021-06-24 00:18:49
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \FFTGIFgenerater\util\FFT.cpp
@@ -12,6 +12,8 @@
  * @param {int} N number of samples
  * @return {*}
  */
+int N;//the number of samples
+complexNum* twiddleFactor;
 void init(int n)
 {
     N = n;
