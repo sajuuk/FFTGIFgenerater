@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../header/FFT.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+F:/DA/FFTGIFgenerater/util/main.cpp
+FFT.h
+F:/DA/FFTGIFgenerater/util/FFT.h
+cstdio
+-
+iostream
+-
+

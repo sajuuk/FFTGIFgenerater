@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/DA/FFTGIFgenerater/build",
+  "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  -DFFT_EXPORTS @CMakeFiles/FFT.dir/includes_CXX.rsp -g   -o CMakeFiles\\FFT.dir\\util\\FFT.cpp.obj -c F:\\DA\\FFTGIFgenerater\\util\\FFT.cpp",
+  "file": "F:/DA/FFTGIFgenerater/util/FFT.cpp"
+},
+{
+  "directory": "F:/DA/FFTGIFgenerater/build",
+  "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\util\\main.cpp.obj -c F:\\DA\\FFTGIFgenerater\\util\\main.cpp",
+  "file": "F:/DA/FFTGIFgenerater/util/main.cpp"
+}
+]

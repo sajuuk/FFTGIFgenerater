@@ -7,7 +7,7 @@ Created on Tue Jun 22 20:51:47 2021
 
 from ctypes import *
 def main():
-    FFTdll=CDLL('F:\\DA\\FFTGIFgenerater\\src\\FFT.dll')
+    FFTdll=CDLL('F:\\DA\\FFTGIFgenerater\\build\\libFFT.dll')
     print(FFTdll)
 if __name__ == "__main__":
     main()

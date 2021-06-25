@@ -1,0 +1,4 @@
+F:/DA/FFTGIFgenerater/build/CMakeFiles/FFT.dir
+F:/DA/FFTGIFgenerater/build/CMakeFiles/edit_cache.dir
+F:/DA/FFTGIFgenerater/build/CMakeFiles/main.dir
+F:/DA/FFTGIFgenerater/build/CMakeFiles/rebuild_cache.dir
