@@ -1,7 +1,7 @@
 /*
  * @Author: sajuuk
  * @Date: 2021-06-22 20:55:44
- * @LastEditTime: 2021-06-24 00:18:49
+ * @LastEditTime: 2021-06-26 17:54:07
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \FFTGIFgenerater\util\FFT.cpp
@@ -12,7 +12,7 @@
  * @param {int} N number of samples
  * @return {*}
  */
-int N;//the number of samples
+int N;//the number of samples,must be the power of 2
 complexNum* twiddleFactor;
 void init(int n)
 {
